@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Varela+Round|ZCOOL+QingKe+HuangYou&display=swap');
+/*	font-family: 'Ubuntu', sans-serif;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+		font-family: 'Varela Round', sans-serif;*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Varela Round', sans-serif;
+	background: #F7F7F7;
+}
+
+#principal{
+	width: 100%;
+}
+#presentacion{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
+	padding: 5%;
+	line-height: 100px;
+	text-align: center;
+	color: #454545;
+}
+#presentacion strong{
+	color: black;
+}
+
+
+#render1{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#render1 strong{
+	color: #1C1C1C;
+}
+#render1 span{
+	text-align: center;
+	color: #FF6A00;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+}
+
+#render1 img{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#render1 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+}
+/*   */
+#render2{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#render2 strong{
+	color: #1C1C1C;
+}
+#render2 span{
+	text-align: center;
+	color: #FF6A00;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+}
+
+#render2 img{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#render2 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+}
+/*   */
+#render3{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#render3 strong{
+	color: #1C1C1C;
+}
+#render3 span{
+	text-align: center;
+	color: #FF6A00;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#render3 img{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#render3 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+}
+/*   */
+#render4{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#render4 strong{
+	color: #1C1C1C;
+}
+#render4 span{
+	text-align: center;
+	color: #FF6A00;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#render4 img{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#render4 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+}
+#portada3d{
+	padding-top: 3%;
+	width: 100%;
+	height: 100px;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	background: #FF6A00;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+#subir{
+	position: fixed;
+	color: white;
+	top: 91%;
+	right: 3%;
+	background: rgba(0,0,0,0.1);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 10;
+}
+#subir:hover{
+	background: rgba(0,0,0,0.5);
+	transform: scale(1.2);
+	transition: all 1s;
+	cursor: pointer;
+}
+#portadadi{
+	padding-top: 3%;
+	width: 100%;
+	height: 100px;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	background: #1C1C1C;
+	text-transform: uppercase;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+/*   */
+#dise1{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#dise1 strong{
+	color: #1C1C1C;
+}
+#dise1 span{
+	text-align: center;
+	color: #1C1C1C;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#dise1 img{
+	width: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+#dise1 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+	padding-right: 10%;
+}
+/*   */
+#dise2{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#dise2 strong{
+	color: #1C1C1C;
+}
+#dise2 span{
+	text-align: center;
+	color: #1C1C1C;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#dise2 img{
+	width: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+#dise2 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+	padding-right: 10%;
+}
+/*   */
+#dise3{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#dise3 strong{
+	color: #1C1C1C;
+}
+#dise3 span{
+	text-align: center;
+	color: #1C1C1C;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#dise3 img{
+	width: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+#dise3 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+	padding-right: 10%;
+}/*   */
+#dise4{
+	font-family: 'Varela Round', sans-serif;
+	width: 100%;
+	line-height: 40px;
+	color: #454545;
+}
+#dise4 strong{
+	color: #1C1C1C;
+}
+#dise4 span{
+	text-align: center;
+	color: #1C1C1C;
+	font-size: 40px;
+	text-shadow: 3px 3px 1px rgba(0,0,0,0.1);
+	text-transform: uppercase;
+}
+
+#dise4 img{
+	width: 30%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+#dise4 p{
+	width: 30%;
+	float: right;
+	padding-top: 15%;
+	padding-right: 10%;
+}
+
+footer{
+	background:#1C1C1C;
+	font-family: 'Varela Round', sans-serif;
+	color: #FDFFFC;
+	height: 47px;
+	margin: 0px auto;
+	width: 100%;
+	line-height: 47px;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0px auto;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
